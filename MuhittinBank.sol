@@ -25,8 +25,8 @@ contract  MuhittinBank{
 
     address _owner;
 
-    uint _feeRatio = 2;
-    uint _stakeRewardRatio = 1;
+    uint _feeRatio = 3;
+    uint _stakeRewardRatio = 2;
 
     constructor() {
         _owner = msg.sender;
